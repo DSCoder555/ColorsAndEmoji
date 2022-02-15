@@ -175,4 +175,21 @@ public class Caterpillar
         System.out.println(" ^ \"\" \"\" \"\" \"\" \"\" \"\"\"");
         System.out.println(RED + name + ": CHOMP CHOMP YUM!" + WHITE);
     }
+    public void Catch() throws InterruptedException{
+        for(int i = 10; i > 0; i--){
+            System.out.print("\n\n\n\n\n\n\n\n\n\n\n\u26BD");
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+
+            }
+            System.out.println("\uD83D\uDC15");
+            System.out.println(i + " feet from the ball.");
+            Thread.sleep(500);
+
+        }
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n" +
+                "\u26BD" +
+                "\uD83D\uDC36");
+        System.out.println(BLUE + "The dog has the ball.");
+}
 }
